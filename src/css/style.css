@@ -1,0 +1,11 @@
+body {
+  overflow-x: hidden;
+}
+
+span > .text-primary {
+  color: #c03434;
+}
+
+.text-justify {
+  text-align: justify;
+}

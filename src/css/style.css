@@ -2,10 +2,18 @@ body {
   overflow-x: hidden;
 }
 
-span > .text-primary {
-  color: #c03434;
+span {
+  color: #bc3434;
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.mt-personalizada {
+  margin-top: 10px;
+}
+
+.mt-personalizada_bottom {
+  margin-bottom: 90px;
 }

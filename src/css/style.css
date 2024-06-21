@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
 }
 
-span {
+.text {
   color: #bc3434;
 }
 
@@ -11,9 +11,11 @@ span {
 }
 
 .mt-personalizada {
-  margin-top: 10px;
+  margin-top: 180px;
 }
 
-.mt-personalizada_bottom {
-  margin-bottom: 90px;
+@media screen and (max-width: 982px) {
+  .mt-personalizada {
+    margin-top: 0px;
+  }
 }

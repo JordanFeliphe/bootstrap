@@ -1,5 +1,12 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  
 }
 
 .text {
@@ -18,4 +25,84 @@ body {
   .mt-personalizada {
     margin-top: 0px;
   }
+}
+
+
+.nav-link:hover{
+
+  color: #bc3434;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-footer{
+  max-width: 1170px;
+  
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #121212;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  
+  
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom:30px ;
+  font-weight: 500;
+  position: relative;
+ 
+}
+
+.footer-col h4::before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -10px;
+ background-color: #bc3434;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin: bottom 10px; ;
+
+}
+ul{
+  padding: 0px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #bc3434;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #bc3434;
+  padding-left: 10px;
+}
+i{
+  margin-right: 15px;
+  color: #bc3434;
+}
+li{
+  padding: 0 0 10px 0;
 }

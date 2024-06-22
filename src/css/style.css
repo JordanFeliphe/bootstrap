@@ -82,9 +82,10 @@ ul{
   margin: bottom 10px; ;
 
 }
-ul{
-  padding: 0px;
-}
+  ul{
+    padding: 0px;
+    
+  }
 .footer-col ul li a{
   font-size: 16px;
   text-transform: capitalize;
@@ -94,15 +95,45 @@ ul{
   color: #ffffff;
   display: block;
   transition: all 0.3s ease;
+  
 }
 .footer-col ul li a:hover{
   color: #bc3434;
   padding-left: 10px;
 }
 i{
-  margin-right: 15px;
   color: #bc3434;
 }
 li{
   padding: 0 0 10px 0;
+}
+
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255, 255, 255, 0.13);
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff ;
+transition: all 0.3s ease;
+}
+a{
+  cursor: pointer;
+}
+
+.footer-col .social-links a:hover{
+    color:#bc3434;
+    background-color: whitesmoke;
+}
+
+@media (max-width:574px){
+  .footer-col{
+    width: 100%;
+  }
+  .btn{
+    margin-bottom: 15px;
+  }
 }

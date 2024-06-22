@@ -182,4 +182,7 @@ a{
     height: 200vh;  
     width: 115vw;
   }
+  body{
+    overflow-x: hidden;
+  }
 }

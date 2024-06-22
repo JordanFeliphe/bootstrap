@@ -165,7 +165,7 @@ a{
   height: 108vh;
   width: 100vw;
   object-fit: cover;
-  filter: brightness(10%);
+  filter: brightness(20%);
   position: absolute;
   top: 0;
   left: 0;
@@ -179,6 +179,7 @@ a{
     margin-bottom: 15px;
   }
   .bg-img{
-    height: 120vh;  
+    height: 135vh;  
+    width: 105vw;
   }
 }

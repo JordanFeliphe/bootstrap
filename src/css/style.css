@@ -180,9 +180,22 @@ a{
   }
   .bg-img{
     height: 200vh;  
-    width: 115vw;
+    width: 111vw;
+    
   }
-  body{
-    overflow-x: hidden;
+  
+}
+@media (max-width:360px){
+  .footer-col{
+    width: 100%;
   }
+  .btn{
+    margin-bottom: 15px;
+  }
+  .bg-img{
+    
+    height: 230vh;  
+    width: 106vw;
+  }
+ 
 }

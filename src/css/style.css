@@ -155,6 +155,9 @@ a {
   z-index: -1;
 }
 @media (max-width: 574px) {
+  body {
+    overflow-x: hidden;
+  }
   .footer-col {
     width: 100%;
   }

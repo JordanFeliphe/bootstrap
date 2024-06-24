@@ -164,7 +164,7 @@ a {
 }
 @media (max-width: 574px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .footer-col {
     width: 100%;

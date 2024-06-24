@@ -163,9 +163,6 @@ a {
   text-decoration: none;
 }
 @media (max-width: 574px) {
-  body {
-    overflow-x: hidden;
-  }
   .footer-col {
     width: 100%;
   }

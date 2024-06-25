@@ -173,12 +173,72 @@ a {
   text-decoration: none;
 }
 
-#imagem-personalizada{
+#imagem-personalizada {
   width: 600px;
   height: 600px;
   margin-top: -20px;
 }
+#imagem-personalizada2 {
+  margin-left: 50px;
+  margin-top: -70px;
+  width: 800px;
+  height: 800px;
+}
 
+#contato-perssonalizado {
+  margin-top: -70px;
+}
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: aqua;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: border-color, box-shadow 0.2s;
+}
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #bc3434;
+  box-shadow: 0 0 0 0.3px #bc3434;
+}
+.form button {
+  display: block;
+  padding: 1rem;
+  background-color: #191717;
+  color: whitesmoke;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background-color: #bc3434;
+}
 @media screen and (max-width: 982px) {
   .mt-personalizada {
     margin-top: 0px;
@@ -196,6 +256,12 @@ a {
     height: 200vh;
     width: 100vw;
   }
+  .form-container {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -208,5 +274,19 @@ a {
   .bg-img {
     height: 230vh;
     width: 100%;
+  }
+  .form-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: px) {
+  .form-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
   }
 }

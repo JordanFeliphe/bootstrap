@@ -285,6 +285,10 @@ a {
     width: 350px;
     height: 400px;
   }
+  #imagem-personalizada2 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: px) {
   .form-container {
